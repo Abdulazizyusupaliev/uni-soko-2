@@ -1,0 +1,49 @@
+@media (max-width: 1400px){
+    .main{
+        .container{
+            max-width: 90%;
+        }
+    }
+}
+
+@media (max-width: 1330px){
+    .main{
+        .section__1{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 622px){
+    .main{
+        .section__1{
+            .card{
+                .right{
+                    max-width: 180px;
+                    height: auto;
+                }
+
+                .left{
+                    p{
+                        font-size: 15px;
+                        max-width: 240px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 513px){
+    .main{
+        .section__1{
+            .card{
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+}

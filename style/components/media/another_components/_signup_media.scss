@@ -1,0 +1,45 @@
+@media (max-width: 1400px){
+    .main__reg.container{
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 520px){
+    .sign{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .account {
+        p{
+            max-width: 90%;
+        }
+        .btn {
+            align-items: center;
+            a{
+                max-width: 90%;
+                font-size: 15px;
+                padding: 17px 70px;
+            }
+        }
+
+        form{
+            input{
+                max-width: 300px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 380px){
+    .main__reg{
+        .btn{
+            a.create,
+            a.con__with__google{
+                padding: 15px 45px;
+                font-size: 13px;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@media (max-width: 1344px){
+    .header{
+        .container{
+            max-width: 90%;
+        }
+    }
+}
+
+@media (max-width: 647px){
+    .header{
+        .container{
+            .navbar__content{
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px){
+    .header{
+        .container{
+            .navbar__content{
+                .nav__right{
+                    gap: 0;
+                }
+            }
+        }
+    }
+}

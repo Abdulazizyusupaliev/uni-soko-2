@@ -1,0 +1,166 @@
+.section__3{
+    margin-top: 192px;
+    display: flex;
+    gap: 84px;
+    align-items: center;
+    border-radius: 28px;
+    background: #FAFBFC;
+    margin-bottom: 100px;
+
+    .left{
+        width: 592px;
+        height: 562px;
+        flex-shrink: 0;
+    }
+
+    .right{
+        .used{
+            color: var(--primary-grey-6, #FFF);
+            font-family: Manrope;
+            font-size: 9px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.72px;
+            text-transform: uppercase;
+            border-radius: 4px;
+            background: var(--Red, #F12B2C);
+            display: flex;
+            width: 40px;
+            padding: 2px 6px;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .name{
+            color: #000;
+            font-family: Manrope;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-top: 11px;
+        }
+
+        .price{
+            color: #FC0B0D;
+            font-family: Manrope;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 13px;
+        }
+
+        .date__and__time{
+            color: #50CC98;
+            // text-align: center;
+            font-family: Manrope;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 15px; /* 125% */
+            letter-spacing: 1.98px;
+        }
+
+
+        .description{
+            color: #000;
+            // text-align: center;
+            font-family: Manrope;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 15px; /* 125% */
+            letter-spacing: 0.24px;
+            margin-top: 27px;
+            margin-bottom: 11px;
+        }
+
+        .description__content{
+            color: #000;
+            font-family: Manrope;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 177.994%; /* 21.359px */
+            letter-spacing: 0.24px;
+            max-width: 418px;
+        }
+
+        .user__content{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            p{
+                color: var(--colors-black, #18191F);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 32px; /* 200% */
+            }
+        }
+
+        .user__intro{
+            color: var(--colors-black, #18191F);
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 160% */
+        }
+
+        .location{
+            display: flex;
+            align-items: center;
+            gap: 56px;
+        }
+
+        .location__text{
+            color: var(--colors-black, #18191F);
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 32px; /* 200% */
+        }
+
+        .location__text__content{
+            color: var(--colors-black, #18191F);
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 200% */
+        }
+
+        .call{
+            border-radius: 10px;
+            background: #EB3223;
+            color: #FFF;
+            text-align: center;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 12.353px; /* 51.471% */
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            max-width: 271px;
+            padding: 5px 106px 10px 64px;
+            img{
+                width: 51px;
+                height: 33px;
+                flex-shrink: 0;
+            }
+        }
+    }
+}

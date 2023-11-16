@@ -1,0 +1,113 @@
+.header{
+    .navbar{
+        background: linear-gradient(180deg, #fc0b0b2f -17.21%, rgba(74, 153, 211, 0.00) 75.91%), #FFF;
+        box-shadow: 0px 4px 16px 0px rgba(75, 0, 129, 0.26);
+        padding-top: 30px;
+        padding-bottom: 34px;
+
+        .navbar__content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logo{
+                color: #4A99D3;
+                font-family: Poppins;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .nav__right{
+                display: flex;
+                gap: 84px;
+                align-items: center;
+
+                a{
+                    display: flex;
+                    align-items: center;   
+                    color: #0F001A;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
+                    img{
+                        width: 57px;
+                    }
+                }
+            }
+        }
+    }
+
+    .header__section__2{
+        background: #EAF6FF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 63px;
+        padding-left: 96px;
+        padding-right: 88px;
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 30px;
+            h2{
+                color: #000;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 33px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                max-width: 503px;
+            }
+
+            .input{
+                position: relative;
+                input{
+                    width: 575px;
+                    height: 69px;
+                    flex-shrink: 0; 
+                    border-radius: 20px;
+                    border: 2px solid #FC0B0D;
+                    background: rgba(252, 11, 13, 0.00);
+                    padding: 20px 96px;
+                    color: #004B84;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                .search__icon{
+                    width: 66.092px;
+                    height: 30.213px;
+                    position: absolute;
+                    top: 20px;
+                    left: 42px;
+                }
+
+                .slider__icon{
+                    width: 34.698px;
+                    height: 32.101px;
+                    position: absolute;
+                    right: 20px;
+                    top: 17px;
+                }
+            }
+        }
+
+        .right{
+            width: 436px;
+            height: 382px;
+            flex-shrink: 0;
+            margin-bottom: -74px;
+        }
+    }
+}
